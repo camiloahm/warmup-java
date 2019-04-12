@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leet/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leet/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uva/Uva_000272.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/warmup-java/com/leet/PalindromeInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/warmup-java/com/leet/PalindromeInteger.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/leet/LongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leet/RotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="210">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/uva/Uva_000272.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -76,14 +83,13 @@
         <option value="$PROJECT_DIR$/src/com/leet/PalindromeInteger.java" />
         <option value="$PROJECT_DIR$/src/com/leet/LongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/com/leet/RotateArray.java" />
+        <option value="$PROJECT_DIR$/src/com/uva/Uva_000272.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="61" />
-    <option name="y" value="23" />
-    <option name="width" value="1379" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -108,13 +114,6 @@
               <item name="warmup-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="warmup-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="warmup-java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateArray">
+  <component name="RunManager" selected="Application.Uva_000272">
     <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leet.LongestSubstring" />
       <module name="warmup-java" />
@@ -199,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_1_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cci.Task_1_8" />
+    <configuration name="Uva_000272" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uva.Uva_000272" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cci.*" />
+          <option name="PATTERN" value="com.uva.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,19 +212,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task_1_8" />
       <item itemvalue="Application.ReverseInteger" />
       <item itemvalue="Application.PalindromeInteger" />
       <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.RotateArray" />
+      <item itemvalue="Application.Uva_000272" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Uva_000272" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.PalindromeInteger" />
         <item itemvalue="Application.ReverseInteger" />
-        <item itemvalue="Application.Task_1_8" />
       </list>
     </recent_temporary>
   </component>
@@ -240,18 +239,18 @@
       <option name="presentableId" value="Default" />
       <updated>1526574341209</updated>
       <workItem from="1554747391372" duration="1708000" />
-      <workItem from="1554921876421" duration="8520000" />
+      <workItem from="1554921876421" duration="11299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10228000" />
+    <option name="totallyTimeSpent" value="13007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14735337" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1602289" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,7 +471,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/leet/LongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -481,8 +480,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leet/RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uva/Uva_000272.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
