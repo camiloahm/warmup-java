@@ -1,6 +1,7 @@
 package com.leet;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class RemoveDuplicates {
 
@@ -15,25 +16,20 @@ public class RemoveDuplicates {
 
     public int removeDuplicates(int[] nums) {
 
-        if (nums.length == 1) {
-            return 1;
-        }
+        HashSet<Integer> hashSet = new HashSet<>();
+        int counter = 0;
 
-        int r = 1;
+        for (int i = 0; i < nums.length; i++) {
 
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] <= nums[i - 1]) {
-                if (i + 1 < nums.length) {
-                    int temp = nums[i];
-                    nums[i] = nums[i + 1];
-                    nums[i + 1] = temp;
-                }
-            } else {
-                r++;
+            if (!hashSet.contains(nums[i])) {
+                hashSet.add(nums[i]);
+                nums[counter] = nums[i];
+                counter++;
             }
+
         }
 
-        return r;
+        return counter;
     }
 
 }
