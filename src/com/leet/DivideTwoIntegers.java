@@ -7,6 +7,7 @@ public class DivideTwoIntegers {
         System.out.println(new DivideTwoIntegers().divide(-1, 1));
         System.out.println(new DivideTwoIntegers().divide(0, 3));
         System.out.println(new DivideTwoIntegers().divide(-2147483648, -1));
+        System.out.println(new DivideTwoIntegers().divide(2147483646, 2));
     }
 
     public int divide(int dividend, int divisor) {
