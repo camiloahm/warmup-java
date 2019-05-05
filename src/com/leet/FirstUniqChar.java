@@ -1,11 +1,5 @@
 package com.leet;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 public class FirstUniqChar {
 
     public static void main(String[] args) {
@@ -15,23 +9,19 @@ public class FirstUniqChar {
     public int firstUniqChar(String s) {
 
         char[] chars = s.toCharArray();
-        List<Integer> indices = new ArrayList<>();
-        HashMap<Character, Integer> indexLocation = new HashMap<>();
+        int[] frequency = new int[129];
 
         for (int i = 0; i < chars.length; i++) {
+            frequency[chars[i]]++;
+        }
 
-            Character character = chars[i];
-
-            if (!indexLocation.containsKey(chars[i])) {
-                indexLocation.put(character, i);
-                indices.add(i);
-            } else {
-                indices.remove();
+        for (int i = 0; i < chars.length; i++) {
+            if (frequency[i] == 1) {
+                return i;
             }
         }
 
-        return indices.toArray();
-
+        return -1;
     }
 
 }
