@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/leet/FirstUniqCharMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/warmup-java/com/leet/FirstUniqChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/warmup-java/com/leet/FirstUniqChar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/leet/FirstUniqChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leet/FirstUniqChar.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,19 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leet/SingleNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" selection-start-line="10" selection-end-line="15" />
-              <folding>
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cci/Task_1_1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,8 +40,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/leet/FirstUniqChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="25" />
+              <folding>
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leet/FirstUniqCharMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#395#415#0" expanded="true" />
+                <element signature="e#471#490#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,12 +176,13 @@
         <option value="$PROJECT_DIR$/src/com/leet/ContainsDuplicateNumber.java" />
         <option value="$PROJECT_DIR$/src/com/leet/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/com/leet/FirstUniqChar.java" />
+        <option value="$PROJECT_DIR$/src/com/leet/FirstUniqCharMap.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="64" />
-    <option name="y" value="23" />
+    <option name="y" value="563" />
     <option name="width" value="1376" />
     <option name="height" value="877" />
   </component>
@@ -238,6 +247,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.leet" />
       <recent name="com.cci" />
     </key>
   </component>
@@ -359,18 +369,18 @@
       <workItem from="1556549536801" duration="86000" />
       <workItem from="1556610003752" duration="1367000" />
       <workItem from="1556804499442" duration="7475000" />
-      <workItem from="1557009278131" duration="801000" />
+      <workItem from="1557009278131" duration="2330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39008000" />
+    <option name="totallyTimeSpent" value="40537000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11527377" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14992025" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,7 +391,7 @@
       <window_info id="aws.explorer" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3131936" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18800889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36383763" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -724,10 +734,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leet/FirstUniqCharMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#415#0" expanded="true" />
+            <element signature="e#471#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leet/FirstUniqChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="25" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
