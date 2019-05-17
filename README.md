@@ -1,5 +1,5 @@
 # warmup-java
 
-My code challenges
+My code challenges just for fun
 
 .
