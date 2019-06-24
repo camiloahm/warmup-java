@@ -1,19 +1,28 @@
 package com.leet;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.LinkedHashSet;
+import java.util.stream.Collectors;
 
 public class FirstUniqCharMap {
 
     public static void main(String[] args) {
-        System.out.println(new FirstUniqCharMap().firstUniqChar("eetcode"));
+        int character = new FirstUniqCharMap().firstUniqChar("eetcode");
+        System.out.println((char) character);
     }
 
     public int firstUniqChar(String s) {
+        {
+            LinkedHashSet<Integer> set = new LinkedHashSet<>();
+            s.chars().boxed().sorted().collect(Collectors.toList()).forEach(
+                    integer -> {
+                        if (!set.add(integer)) {
+                            set.remove(integer);
+                        }
+                    }
+            );
 
-    1        return -1;
+            return set.iterator().next();
+        }
 
     }
-
 }

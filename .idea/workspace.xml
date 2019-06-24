@@ -16,20 +16,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/leet/FirstUniqCharMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="64" />
     <option name="y" value="23" />
     <option name="width" value="1376" />
@@ -102,8 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +132,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,17 +270,17 @@
       <workItem from="1557009278131" duration="2954000" />
       <workItem from="1557213338710" duration="2842000" />
       <workItem from="1557390040557" duration="539000" />
+      <workItem from="1561372704950" duration="1046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44542000" />
+    <option name="totallyTimeSpent" value="45588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="23" width="1376" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29154077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13955343" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +291,7 @@
       <window_info id="aws.explorer" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3131936" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3131014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36383763" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,17 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leet/FirstUniqChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leet/ContainsDuplicateNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -657,13 +633,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leet/FirstUniqChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leet/FirstUniqCharMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="378">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="215" column="55" selection-start-line="215" selection-start-column="48" selection-end-line="215" selection-end-column="55" />
+          <folding>
+            <element signature="e#8996#8997#0" expanded="true" />
+            <element signature="e#9044#9045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="828" column="20" selection-start-line="828" selection-start-column="20" selection-end-line="828" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="2910" column="21" selection-start-line="2910" selection-start-column="21" selection-end-line="2910" selection-end-column="21" />
         </state>
       </provider>
     </entry>
