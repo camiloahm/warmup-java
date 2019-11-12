@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leet/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leet/Atoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leet/StrStrOrIndexOf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidPalindrome">
+  <component name="RunManager" selected="Application.StrStrOrIndexOf">
     <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leet.FirstUniqChar" />
       <module name="warmup-java" />
@@ -101,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leet.ReverseString" />
+    <configuration name="StrStrOrIndexOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leet.StrStrOrIndexOf" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
@@ -141,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseString" />
       <item itemvalue="Application.FirstUniqChar" />
       <item itemvalue="Application.FirstUniqCharMap" />
       <item itemvalue="Application.ValidAnagram" />
       <item itemvalue="Application.ValidPalindrome" />
+      <item itemvalue="Application.StrStrOrIndexOf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrStrOrIndexOf" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.ValidAnagram" />
         <item itemvalue="Application.FirstUniqCharMap" />
         <item itemvalue="Application.FirstUniqChar" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +186,8 @@
       <workItem from="1557390040557" duration="539000" />
       <workItem from="1561372704950" duration="1046000" />
       <workItem from="1563453921499" duration="664000" />
-      <workItem from="1573216070570" duration="2835000" />
+      <workItem from="1573216070570" duration="4214000" />
+      <workItem from="1573460072884" duration="6641000" />
     </task>
     <servers />
   </component>
@@ -197,7 +199,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -232,25 +236,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>originalDividend * -1L</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>s.charAt(j)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>s.charAt(i++)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="masterDetails">
     <states>
