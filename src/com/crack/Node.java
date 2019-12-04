@@ -24,7 +24,6 @@ public class Node {
     Node removeNode(Node head, int d) {
 
         Node n = head;
-
         if (n.data == d) {
             return head.next;
         }
@@ -39,5 +38,8 @@ public class Node {
 
         return head;
     }
+
+
+
 
 }

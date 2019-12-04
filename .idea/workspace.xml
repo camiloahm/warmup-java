@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/leet/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/crack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/crack/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +193,9 @@
       <workItem from="1573216070570" duration="4214000" />
       <workItem from="1573460072884" duration="6982000" />
       <workItem from="1573660982366" duration="664000" />
-      <workItem from="1575292885279" duration="2485000" />
+      <workItem from="1575292885279" duration="3617000" />
+      <workItem from="1575365149821" duration="167000" />
+      <workItem from="1575365332559" duration="2938000" />
     </task>
     <servers />
   </component>
@@ -211,14 +215,27 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="780" y="304" key="#Notifications" timestamp="1575365222899">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="780" y="304" key="#Notifications/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365222899" />
+    <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575365238783">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365238783" />
+    <state x="911" y="514" key="com.intellij.ide.util.TipDialog" timestamp="1575365346155">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="911" y="514" key="com.intellij.ide.util.TipDialog/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365346155" />
+    <state x="859" y="322" key="search.everywhere.popup" timestamp="1575365228337">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="859" y="322" key="search.everywhere.popup/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365228337" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leet/LongestSubstring.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/uva/Uva_000272.java</url>
           <line>4</line>
