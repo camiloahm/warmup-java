@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leet/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/crack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/crack/Node.java" afterDir="false" />
     </list>
@@ -195,7 +194,7 @@
       <workItem from="1573660982366" duration="664000" />
       <workItem from="1575292885279" duration="3617000" />
       <workItem from="1575365149821" duration="167000" />
-      <workItem from="1575365332559" duration="2938000" />
+      <workItem from="1575365332559" duration="3137000" />
     </task>
     <servers />
   </component>
