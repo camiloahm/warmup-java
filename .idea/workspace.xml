@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/crack/graph/RouteBetweenNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/warmup/GraphBFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/crack/graph/MinimalTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/warmup-java/com/warmup/Graph.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="com.cci" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RouteBetweenNodes">
+  <component name="RunManager" selected="Application.MinimalTree">
     <configuration name="GraphBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.warmup.GraphBFS" />
       <module name="warmup-java" />
@@ -82,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.warmup.GraphDFS" />
+    <configuration name="MinimalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crack.graph.MinimalTree" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.warmup.*" />
+          <option name="PATTERN" value="com.crack.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leet.RemoveDuplicates" />
+      <module name="warmup-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,21 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrStrOrIndexOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leet.StrStrOrIndexOf" />
-      <module name="warmup-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leet.ValidPalindrome" />
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leet.SingleNumber" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
@@ -135,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ValidPalindrome" />
-      <item itemvalue="Application.StrStrOrIndexOf" />
-      <item itemvalue="Application.GraphDFS" />
       <item itemvalue="Application.GraphBFS" />
       <item itemvalue="Application.RouteBetweenNodes" />
+      <item itemvalue="Application.RemoveDuplicates" />
+      <item itemvalue="Application.SingleNumber" />
+      <item itemvalue="Application.MinimalTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimalTree" />
+        <item itemvalue="Application.SingleNumber" />
+        <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.RouteBetweenNodes" />
         <item itemvalue="Application.GraphBFS" />
-        <item itemvalue="Application.GraphDFS" />
-        <item itemvalue="Application.StrStrOrIndexOf" />
-        <item itemvalue="Application.ValidPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +197,9 @@
       <workItem from="1575365332559" duration="3659000" />
       <workItem from="1575626789935" duration="598000" />
       <workItem from="1581579598761" duration="1521000" />
-      <workItem from="1581605272750" duration="6088000" />
+      <workItem from="1581605272750" duration="7459000" />
+      <workItem from="1582006297315" duration="1570000" />
+      <workItem from="1582091314621" duration="1652000" />
     </task>
     <servers />
   </component>
@@ -236,38 +236,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1581609863356" />
-    <state width="694" height="218" key="GridCell.Tab.0.bottom" timestamp="1581921287360">
+    <state width="694" height="239" key="GridCell.Tab.0.bottom" timestamp="1582093007004">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581921287360" />
-    <state width="694" height="218" key="GridCell.Tab.0.center" timestamp="1581921287358">
+    <state width="694" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582093007004" />
+    <state width="1254" height="164" key="GridCell.Tab.0.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758752" />
+    <state width="694" height="239" key="GridCell.Tab.0.center" timestamp="1582093007002">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="218" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581921287358" />
-    <state width="694" height="218" key="GridCell.Tab.0.left" timestamp="1581921287357">
+    <state width="694" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582093007002" />
+    <state width="1254" height="164" key="GridCell.Tab.0.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758750" />
+    <state width="694" height="239" key="GridCell.Tab.0.left" timestamp="1582093007002">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="218" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581921287357" />
-    <state width="694" height="218" key="GridCell.Tab.0.right" timestamp="1581921287359">
+    <state width="694" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582093007002" />
+    <state width="1254" height="164" key="GridCell.Tab.0.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758749" />
+    <state width="694" height="239" key="GridCell.Tab.0.right" timestamp="1582093007003">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="218" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581921287359" />
-    <state width="694" height="259" key="GridCell.Tab.1.bottom" timestamp="1581921255135">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="694" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582093007003" />
+    <state width="1254" height="164" key="GridCell.Tab.0.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758751" />
+    <state width="694" height="259" key="GridCell.Tab.1.bottom" timestamp="1581929042815">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="694" height="259" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581921255135" />
-    <state width="694" height="259" key="GridCell.Tab.1.center" timestamp="1581921255134">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="694" height="259" key="GridCell.Tab.1.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1581929042815" />
+    <state width="694" height="259" key="GridCell.Tab.1.center" timestamp="1581929042814">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="694" height="259" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581921255134" />
-    <state width="694" height="259" key="GridCell.Tab.1.left" timestamp="1581921255133">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="694" height="259" key="GridCell.Tab.1.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1581929042814" />
+    <state width="694" height="259" key="GridCell.Tab.1.left" timestamp="1581929042814">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="694" height="259" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581921255133" />
-    <state width="694" height="259" key="GridCell.Tab.1.right" timestamp="1581921255134">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="694" height="259" key="GridCell.Tab.1.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1581929042814" />
+    <state width="694" height="259" key="GridCell.Tab.1.right" timestamp="1581929042815">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="694" height="259" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581921255134" />
+    <state width="694" height="259" key="GridCell.Tab.1.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1581929042815" />
     <state x="512" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1581605305547">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -296,11 +304,6 @@
           <url>file://$PROJECT_DIR$/src/com/leet/TwoSum.java</url>
           <line>22</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/crack/graph/RouteBetweenNodes.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
