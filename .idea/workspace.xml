@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/crack/graph/MinimalTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/daily/ProductPuzzle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +66,13 @@
       <recent name="com.cci" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimalTree">
-    <configuration name="GraphBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.warmup.GraphBFS" />
+  <component name="RunManager" selected="Application.ProductPuzzle">
+    <configuration name="MinimalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crack.graph.MinimalTree" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.warmup.*" />
+          <option name="PATTERN" value="com.crack.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.crack.graph.MinimalTree" />
+    <configuration name="ProductPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daily.ProductPuzzle" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.crack.graph.*" />
+          <option name="PATTERN" value="com.daily.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GraphBFS" />
       <item itemvalue="Application.RouteBetweenNodes" />
       <item itemvalue="Application.RemoveDuplicates" />
       <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.MinimalTree" />
+      <item itemvalue="Application.ProductPuzzle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductPuzzle" />
         <item itemvalue="Application.MinimalTree" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.RouteBetweenNodes" />
-        <item itemvalue="Application.GraphBFS" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,7 @@
       <workItem from="1581579598761" duration="1521000" />
       <workItem from="1581605272750" duration="7459000" />
       <workItem from="1582006297315" duration="1570000" />
-      <workItem from="1582091314621" duration="1652000" />
+      <workItem from="1582091314621" duration="2488000" />
     </task>
     <servers />
   </component>
@@ -236,25 +236,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1581609863356" />
-    <state width="694" height="239" key="GridCell.Tab.0.bottom" timestamp="1582093007004">
+    <state width="694" height="239" key="GridCell.Tab.0.bottom" timestamp="1582094064236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582093007004" />
+    <state width="694" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582094064236" />
     <state width="1254" height="164" key="GridCell.Tab.0.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758752" />
-    <state width="694" height="239" key="GridCell.Tab.0.center" timestamp="1582093007002">
+    <state width="694" height="239" key="GridCell.Tab.0.center" timestamp="1582094064235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582093007002" />
+    <state width="694" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582094064235" />
     <state width="1254" height="164" key="GridCell.Tab.0.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758750" />
-    <state width="694" height="239" key="GridCell.Tab.0.left" timestamp="1582093007002">
+    <state width="694" height="239" key="GridCell.Tab.0.left" timestamp="1582094064234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582093007002" />
+    <state width="694" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582094064234" />
     <state width="1254" height="164" key="GridCell.Tab.0.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758749" />
-    <state width="694" height="239" key="GridCell.Tab.0.right" timestamp="1582093007003">
+    <state width="694" height="239" key="GridCell.Tab.0.right" timestamp="1582094064235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582093007003" />
+    <state width="694" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582094064235" />
     <state width="1254" height="164" key="GridCell.Tab.0.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758751" />
     <state width="694" height="259" key="GridCell.Tab.1.bottom" timestamp="1581929042815">
       <screen x="0" y="0" width="2560" height="1440" />
