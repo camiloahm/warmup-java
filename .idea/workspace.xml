@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/hackerrank/JavaAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/warmup/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/warmup/GetMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/daily/ProductPuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/daily/ProductPuzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/warmup-java/com/daily/ProductPuzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/warmup-java/com/daily/ProductPuzzle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,17 +65,44 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hackerrank" />
       <recent name="com.leet" />
       <recent name="com.cci" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductPuzzle">
-    <configuration name="MinimalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.crack.graph.MinimalTree" />
+  <component name="RunManager" selected="Application.Exceptions">
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.warmup.Exceptions" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.crack.graph.*" />
+          <option name="PATTERN" value="com.warmup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leet.FirstUniqChar" />
+      <module name="warmup-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.warmup.GetMax" />
+      <module name="warmup-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.warmup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,46 +136,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RouteBetweenNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.crack.graph.RouteBetweenNodes" />
-      <module name="warmup-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crack.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leet.SingleNumber" />
-      <module name="warmup-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.RouteBetweenNodes" />
-      <item itemvalue="Application.RemoveDuplicates" />
-      <item itemvalue="Application.SingleNumber" />
-      <item itemvalue="Application.MinimalTree" />
       <item itemvalue="Application.ProductPuzzle" />
+      <item itemvalue="Application.FirstUniqChar" />
+      <item itemvalue="Application.GetMax" />
+      <item itemvalue="Application.RemoveDuplicates" />
+      <item itemvalue="Application.Exceptions" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductPuzzle" />
-        <item itemvalue="Application.MinimalTree" />
-        <item itemvalue="Application.SingleNumber" />
+        <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.RouteBetweenNodes" />
+        <item itemvalue="Application.GetMax" />
+        <item itemvalue="Application.FirstUniqChar" />
+        <item itemvalue="Application.ProductPuzzle" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +203,10 @@
       <workItem from="1581579598761" duration="1521000" />
       <workItem from="1581605272750" duration="7459000" />
       <workItem from="1582006297315" duration="1570000" />
-      <workItem from="1582091314621" duration="2623000" />
+      <workItem from="1582091314621" duration="3055000" />
+      <workItem from="1582183455403" duration="406000" />
+      <workItem from="1582999170600" duration="1196000" />
+      <workItem from="1583217601897" duration="1990000" />
     </task>
     <servers />
   </component>
@@ -232,54 +239,55 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365238783" />
-    <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581609863356">
+    <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583217999341">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1581609863356" />
-    <state width="694" height="239" key="GridCell.Tab.0.bottom" timestamp="1582094129133">
+    <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1583217999341" />
+    <state width="694" height="129" key="GridCell.Tab.0.bottom" timestamp="1583221049269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582094129133" />
-    <state width="1254" height="164" key="GridCell.Tab.0.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758752" />
-    <state width="694" height="239" key="GridCell.Tab.0.center" timestamp="1582094129132">
+    <state width="694" height="129" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583221049269" />
+    <state width="694" height="259" key="GridCell.Tab.0.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583151080917" />
+    <state width="694" height="129" key="GridCell.Tab.0.center" timestamp="1583221049267">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582094129132" />
-    <state width="1254" height="164" key="GridCell.Tab.0.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758750" />
-    <state width="694" height="239" key="GridCell.Tab.0.left" timestamp="1582094129131">
+    <state width="694" height="129" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583221049267" />
+    <state width="694" height="259" key="GridCell.Tab.0.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583151080914" />
+    <state width="694" height="129" key="GridCell.Tab.0.left" timestamp="1583221049265">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582094129131" />
-    <state width="1254" height="164" key="GridCell.Tab.0.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758749" />
-    <state width="694" height="239" key="GridCell.Tab.0.right" timestamp="1582094129133">
+    <state width="694" height="129" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583221049265" />
+    <state width="694" height="259" key="GridCell.Tab.0.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583151080913" />
+    <state width="694" height="129" key="GridCell.Tab.0.right" timestamp="1583221049269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582094129133" />
-    <state width="1254" height="164" key="GridCell.Tab.0.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1582019758751" />
-    <state width="694" height="259" key="GridCell.Tab.1.bottom" timestamp="1581929042815">
+    <state width="694" height="129" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583221049269" />
+    <state width="694" height="259" key="GridCell.Tab.0.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583151080916" />
+    <state width="694" height="259" key="GridCell.Tab.1.bottom" timestamp="1583151080920">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581921255135" />
-    <state width="694" height="259" key="GridCell.Tab.1.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1581929042815" />
-    <state width="694" height="259" key="GridCell.Tab.1.center" timestamp="1581929042814">
+    <state width="694" height="259" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583087831591" />
+    <state width="694" height="259" key="GridCell.Tab.1.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583151080920" />
+    <state width="694" height="259" key="GridCell.Tab.1.center" timestamp="1583151080918">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1581921255134" />
-    <state width="694" height="259" key="GridCell.Tab.1.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1581929042814" />
-    <state width="694" height="259" key="GridCell.Tab.1.left" timestamp="1581929042814">
+    <state width="694" height="259" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583087831589" />
+    <state width="694" height="259" key="GridCell.Tab.1.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583151080918" />
+    <state width="694" height="259" key="GridCell.Tab.1.left" timestamp="1583151080918">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1581921255133" />
-    <state width="694" height="259" key="GridCell.Tab.1.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1581929042814" />
-    <state width="694" height="259" key="GridCell.Tab.1.right" timestamp="1581929042815">
+    <state width="694" height="259" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583087831588" />
+    <state width="694" height="259" key="GridCell.Tab.1.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583151080918" />
+    <state width="694" height="259" key="GridCell.Tab.1.right" timestamp="1583151080919">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1581921255134" />
-    <state width="694" height="259" key="GridCell.Tab.1.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1581929042815" />
-    <state x="512" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1581605305547">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="694" height="259" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583087831589" />
+    <state width="694" height="259" key="GridCell.Tab.1.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583151080919" />
+    <state x="512" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1582183454312">
+      <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="512" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581605305547" />
+    <state x="512" y="321" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1582183454312" />
     <state x="911" y="514" key="com.intellij.ide.util.TipDialog/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365346155" />
     <state x="483" y="201" width="840" height="1034" key="search.everywhere.popup" timestamp="1581918808588">
       <screen x="0" y="0" width="1440" height="900" />
@@ -301,9 +309,9 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leet/TwoSum.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/src/com/leet/FirstUniqChar.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
