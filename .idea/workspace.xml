@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codility/OddOcurrencesInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codility/BinaryGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hackerrank/BinaryGap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,35 +68,35 @@
       <recent name="com.cci" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OddOcurrencesInArray">
+  <component name="RunManager" selected="Application.BinaryGap (1)">
+    <configuration name="BinaryGap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.BinaryGap" />
+      <module name="warmup-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codility.BinaryGap" />
+      <module name="warmup-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.warmup.Exceptions" />
-      <module name="warmup-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.warmup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leet.FirstUniqChar" />
-      <module name="warmup-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.warmup.GetMax" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
@@ -134,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FirstUniqChar" />
-      <item itemvalue="Application.GetMax" />
       <item itemvalue="Application.RemoveDuplicates" />
       <item itemvalue="Application.Exceptions" />
       <item itemvalue="Application.OddOcurrencesInArray" />
+      <item itemvalue="Application.BinaryGap" />
+      <item itemvalue="Application.BinaryGap (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryGap (1)" />
+        <item itemvalue="Application.BinaryGap" />
         <item itemvalue="Application.OddOcurrencesInArray" />
         <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.GetMax" />
-        <item itemvalue="Application.FirstUniqChar" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +206,7 @@
       <workItem from="1582999170600" duration="1196000" />
       <workItem from="1583217601897" duration="3111000" />
       <workItem from="1583227468337" duration="620000" />
-      <workItem from="1583510029266" duration="1521000" />
+      <workItem from="1583510029266" duration="4088000" />
     </task>
     <servers />
   </component>
@@ -242,49 +243,49 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1583217999341" />
-    <state width="1254" height="433" key="GridCell.Tab.0.bottom" timestamp="1583512367729">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="258" key="GridCell.Tab.0.bottom" timestamp="1583533945290">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="246" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583221272126" />
+    <state width="694" height="258" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583533945290" />
     <state width="694" height="246" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1583227432713" />
-    <state width="1254" height="433" key="GridCell.Tab.0.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583512367729" />
-    <state width="1254" height="433" key="GridCell.Tab.0.center" timestamp="1583512367726">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1254" height="433" key="GridCell.Tab.0.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583513061195" />
+    <state width="694" height="258" key="GridCell.Tab.0.center" timestamp="1583533945287">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="246" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583221272125" />
+    <state width="694" height="258" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583533945287" />
     <state width="694" height="246" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1583227432712" />
-    <state width="1254" height="433" key="GridCell.Tab.0.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583512367726" />
-    <state width="1254" height="433" key="GridCell.Tab.0.left" timestamp="1583512367725">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1254" height="433" key="GridCell.Tab.0.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583513061194" />
+    <state width="694" height="258" key="GridCell.Tab.0.left" timestamp="1583533945287">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="246" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583221272124" />
+    <state width="694" height="258" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583533945287" />
     <state width="694" height="246" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1583227432712" />
-    <state width="1254" height="433" key="GridCell.Tab.0.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583512367725" />
-    <state width="1254" height="433" key="GridCell.Tab.0.right" timestamp="1583512367728">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1254" height="433" key="GridCell.Tab.0.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583513061192" />
+    <state width="694" height="258" key="GridCell.Tab.0.right" timestamp="1583533945289">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="246" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583221272126" />
+    <state width="694" height="258" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583533945289" />
     <state width="694" height="246" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1583227432713" />
-    <state width="1254" height="433" key="GridCell.Tab.0.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583512367728" />
-    <state width="1254" height="455" key="GridCell.Tab.1.bottom" timestamp="1583511443075">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1254" height="433" key="GridCell.Tab.0.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583513061194" />
+    <state width="694" height="259" key="GridCell.Tab.1.bottom" timestamp="1583533834693">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583087831591" />
+    <state width="694" height="259" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583533834693" />
     <state width="1254" height="455" key="GridCell.Tab.1.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583511443075" />
-    <state width="1254" height="455" key="GridCell.Tab.1.center" timestamp="1583511443066">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="259" key="GridCell.Tab.1.center" timestamp="1583533834692">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583087831589" />
+    <state width="694" height="259" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583533834692" />
     <state width="1254" height="455" key="GridCell.Tab.1.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583511443066" />
-    <state width="1254" height="455" key="GridCell.Tab.1.left" timestamp="1583511443064">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="259" key="GridCell.Tab.1.left" timestamp="1583533834692">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583087831588" />
+    <state width="694" height="259" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583533834692" />
     <state width="1254" height="455" key="GridCell.Tab.1.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583511443064" />
-    <state width="1254" height="455" key="GridCell.Tab.1.right" timestamp="1583511443073">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="259" key="GridCell.Tab.1.right" timestamp="1583533834693">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583087831589" />
+    <state width="694" height="259" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583533834693" />
     <state width="1254" height="455" key="GridCell.Tab.1.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583511443073" />
     <state x="512" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1583227468067">
       <screen x="0" y="0" width="1440" height="900" />
