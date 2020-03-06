@@ -1,7 +1,5 @@
 package com.codility;
 
-import java.util.Arrays;
-
 public class BinaryGap {
 
     public static void main(String[] args) {
@@ -13,17 +11,14 @@ public class BinaryGap {
 
             char[] chars = Integer.toBinaryString(N).toCharArray();
 
-            short counter = 0;
-            short max = 0;
+            int counter = 0;
+            int max = 0;
 
             for (char digit : chars) {
                 if (digit == '0') {
                     counter++;
                 } else {
-                    if (counter > max) {
-                        max = counter;
-                    }
-
+                    max = Math.max(counter, max);
                     counter = 0;
                 }
             }
