@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be832e2a-2751-44b7-9cc1-eb0a9b56cc2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/warmup-java/com/codility/CyclicRotation$Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/warmup-java/com/codility/CyclicRotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codility/CyclicRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codility/FrogJmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codility/challenge/FindBug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codility/challenge/Ranks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/warmup-java/com/codility/BinaryGap$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/warmup-java/com/codility/BinaryGap$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/warmup-java/com/codility/BinaryGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/warmup-java/com/codility/BinaryGap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/warmup-java/com/hackerrank/BinaryGap$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/warmup-java/com/hackerrank/BinaryGap$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/warmup-java/com/hackerrank/BinaryGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/warmup-java/com/hackerrank/BinaryGap.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +28,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>&quot;</find>
-      <find>``</find>
-      <find>''</find>
-      <find>dividend</find>
-      <find>divisor</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>tempDividend</replace>
-      <replace>tempDivisor</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,39 +55,39 @@
       <recent name="com.cci" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrogJmp">
-    <configuration name="BinaryGap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hackerrank.BinaryGap" />
-      <module name="warmup-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codility.BinaryGap" />
-      <module name="warmup-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FindBug">
     <configuration name="CyclicRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codility.CyclicRotation" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codility.*" />
+          <option name="PATTERN" value="com.codility.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codility.challenge.Dices" />
+      <module name="warmup-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codility.challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindBug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codility.challenge.FindBug" />
+      <module name="warmup-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codility.challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,7 +100,7 @@
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codility.*" />
+          <option name="PATTERN" value="com.codility.challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leet.RotateArray" />
+    <configuration name="Ranks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codility.challenge.Ranks" />
       <module name="warmup-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leet.*" />
+          <option name="PATTERN" value="com.codility.challenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinaryGap" />
-      <item itemvalue="Application.BinaryGap (1)" />
-      <item itemvalue="Application.RotateArray" />
       <item itemvalue="Application.CyclicRotation" />
       <item itemvalue="Application.FrogJmp" />
+      <item itemvalue="Application.Ranks" />
+      <item itemvalue="Application.Dices" />
+      <item itemvalue="Application.FindBug" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindBug" />
+        <item itemvalue="Application.Dices" />
+        <item itemvalue="Application.Ranks" />
         <item itemvalue="Application.FrogJmp" />
         <item itemvalue="Application.CyclicRotation" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.BinaryGap (1)" />
-        <item itemvalue="Application.BinaryGap" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +194,9 @@
       <workItem from="1583217601897" duration="3111000" />
       <workItem from="1583227468337" duration="620000" />
       <workItem from="1583510029266" duration="7352000" />
-      <workItem from="1583826769173" duration="142000" />
+      <workItem from="1583826769173" duration="723000" />
+      <workItem from="1583841674847" duration="213000" />
+      <workItem from="1584077775429" duration="5836000" />
     </task>
     <servers />
   </component>
@@ -238,74 +221,68 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="220" y="34" key="#Auto_Import/0.0.1440.900@0.0.1440.900" timestamp="1581588919979" />
-    <state x="780" y="304" key="#Notifications" timestamp="1575365222899">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="780" y="304" key="#Notifications/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365222899" />
-    <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575365238783">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="968" y="448" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365238783" />
     <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583217999341">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="426" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1583217999341" />
-    <state width="694" height="259" key="GridCell.Tab.0.bottom" timestamp="1583745513287">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="261" key="GridCell.Tab.0.bottom" timestamp="1584085912079">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="258" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583537471798" />
+    <state width="694" height="261" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584085912079" />
     <state width="694" height="246" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1583227432713" />
     <state width="694" height="259" key="GridCell.Tab.0.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583745513287" />
-    <state width="694" height="259" key="GridCell.Tab.0.center" timestamp="1583745513285">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="261" key="GridCell.Tab.0.center" timestamp="1584085912077">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="258" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583537471797" />
+    <state width="694" height="261" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584085912077" />
     <state width="694" height="246" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1583227432712" />
     <state width="694" height="259" key="GridCell.Tab.0.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583745513285" />
-    <state width="694" height="259" key="GridCell.Tab.0.left" timestamp="1583745513284">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="261" key="GridCell.Tab.0.left" timestamp="1584085912077">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="258" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583537471795" />
+    <state width="694" height="261" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584085912077" />
     <state width="694" height="246" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1583227432712" />
     <state width="694" height="259" key="GridCell.Tab.0.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583745513284" />
-    <state width="694" height="259" key="GridCell.Tab.0.right" timestamp="1583745513286">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="261" key="GridCell.Tab.0.right" timestamp="1584085912078">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="258" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583537471797" />
+    <state width="694" height="261" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584085912078" />
     <state width="694" height="246" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1583227432713" />
     <state width="694" height="259" key="GridCell.Tab.0.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583745513286" />
-    <state width="694" height="259" key="GridCell.Tab.1.bottom" timestamp="1583745513290">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="282" key="GridCell.Tab.1.bottom" timestamp="1584080870564">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583533834693" />
+    <state width="694" height="282" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584080870564" />
     <state width="694" height="259" key="GridCell.Tab.1.bottom/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583745513290" />
-    <state width="694" height="259" key="GridCell.Tab.1.center" timestamp="1583745513289">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="282" key="GridCell.Tab.1.center" timestamp="1584080870562">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583533834692" />
+    <state width="694" height="282" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584080870562" />
     <state width="694" height="259" key="GridCell.Tab.1.center/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583745513289" />
-    <state width="694" height="259" key="GridCell.Tab.1.left" timestamp="1583745513288">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="282" key="GridCell.Tab.1.left" timestamp="1584080870561">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583533834692" />
+    <state width="694" height="282" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584080870561" />
     <state width="694" height="259" key="GridCell.Tab.1.left/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583745513288" />
-    <state width="694" height="259" key="GridCell.Tab.1.right" timestamp="1583745513289">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="694" height="282" key="GridCell.Tab.1.right" timestamp="1584080870563">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="694" height="259" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583533834693" />
+    <state width="694" height="282" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584080870563" />
     <state width="694" height="259" key="GridCell.Tab.1.right/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583745513289" />
     <state x="512" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1583227468067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="512" y="321" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583227468067" />
     <state x="512" y="321" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1582183454312" />
-    <state x="911" y="514" key="com.intellij.ide.util.TipDialog/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365346155" />
+    <state x="333" y="163" width="774" height="574" key="find.popup" timestamp="1584080602963">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="333" y="163" width="774" height="574" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1584080602963" />
     <state x="859" y="322" width="1494" height="1655" key="search.everywhere.popup" timestamp="1583512092961">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="483" y="201" width="840" height="1034" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583227674082" />
     <state x="859" y="322" width="1494" height="1655" key="search.everywhere.popup/2560.177.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1583512092961" />
-    <state x="859" y="322" key="search.everywhere.popup/2560.46.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1575365228337" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -324,6 +301,11 @@
           <url>file://$PROJECT_DIR$/src/com/leet/FirstUniqChar.java</url>
           <line>14</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/codility/challenge/Ranks.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
