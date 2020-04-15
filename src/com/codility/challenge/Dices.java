@@ -1,5 +1,12 @@
 package com.codility.challenge;
 
+/**
+ * input array contains the number on the face up.
+ * Calculate the total number of min rotations of, to make all fac.. the same.
+ * 1 will require only one rotation to have 2, 3, 4 and 5 face up,
+ * but would require min two rotations to make it the face 6, as 6 is the opposite side of 1.
+ * The opposite side of 2 is 5 and 3 is 4.
+ */
 public class Dices {
 
     public static void main(String[] args) {
